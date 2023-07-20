@@ -4,7 +4,7 @@ import completeAuth from '../public/assets/projectimage/completeAuth.png';
 import laundry from '../public/assets/projectimage/laundryimage.png'
 import messenger from '../public/assets/projectimage/messengerimage.png'
 import simplycart from '../public/assets/projectimage/simplycart.png'
-import ProjectItem from './ProjectItem';
+import ProjectItem from './ProjectItem'
 
 const Projects = () => {
   return (
@@ -18,7 +18,7 @@ const Projects = () => {
           <ProjectItem
             title="Complete Auth."
             backgroundImg={completeAuth}
-            projectUrl="/completeauth"
+            projectUrl="/completeAuth"
             tech="React JS"
           />
           <ProjectItem
